@@ -1,7 +1,6 @@
 import React from "react";
-// import SpinningShapes from "./Components/Ceba/SpinningShapes";
-import ParticleBackground from "./Components/SpinningCircle/SpinningCircle";
-import SpinningCircle from "./Components/SpinningCircle/SpinningCircle";
+import SpeechExchange from "./Components/Annyang/SpeechExchange";
+
 
 function App() {
   return (
@@ -9,7 +8,7 @@ function App() {
       <h1>CEBA</h1>
       <div className="shape-container">
         {/* <SpinningShapes /> */}
-        <SpinningCircle />
+        <SpeechExchange />
       </div>
     </div>
   );
